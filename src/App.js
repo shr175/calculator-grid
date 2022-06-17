@@ -54,7 +54,7 @@ function reducer(state, { type, payload }) {
         return state;
       };
 
-      // ....avoiding use of operator in empty calculator Test 1
+      // ....avoiding use of operator in empty calculator Test 12
 
       if (state.currentOperand == null) {
         return {
